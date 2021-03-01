@@ -1,0 +1,78 @@
+:root{
+  --tab-head-color: 0,0,105;
+  --tab-color-light: 
+}
+
+.tab{
+  border-spacing: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.tab-head > tr > th{
+  padding: 15px 30px;
+  color: white;
+  font-size: large;
+}
+
+.tab-head > tr > th:nth-child(1){
+  background-color: rgba(var(--tab-head-color),0.35);
+}
+
+.tab-head > tr > th:nth-child(2){
+  background-color: rgba(var(--tab-head-color),0.5);
+}
+
+.tab-head > tr > th:nth-child(3){
+  background-color: rgba(var(--tab-head-color),0.6);
+}
+
+.tab-head > tr > th:nth-child(4){
+  background-color: rgba(var(--tab-head-color),0.8);
+}
+
+.tab-head > tr > th:nth-child(5){
+  background-color: rgba(var(--tab-head-color),1);
+}
+
+.tab-body td{
+  padding: 15px 20px;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.tab-body > tr > td{
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.tab-body td + td{
+  text-align: center;
+}
+
+
+tbody>:nth-child(2n+1)>td:nth-child(2n+1){
+  background-color: rgb(180, 180, 180, 0.5);
+}
+
+tbody>:nth-child(2n)> td:nth-child(2n){
+  background-color:rgb(219,219,219, 0.1);
+}
+
+tbody > tr:nth-child(2n+1)>td:nth-child(2n){
+  background-color: #e7e7e7 ;
+}
+
+.tab-foot > tr > td{
+  padding: 10px 20px;
+  background-color: rgb(180, 180, 180, 0.6);
+  text-align: center;
+}
+
+.simple-button{
+  padding: 10px;
+  background-color:  #f0f0f0;
+}
